@@ -1,0 +1,229 @@
+:root{
+    --vermelho:#E50914;
+    --preto:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #AAA;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+}
+
+
+header .container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+header  .logo{
+    color: var(--vermelho);
+    font-family: 'Arial black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+    width: 25%;
+  
+    
+    }
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+header nav a:hover{
+    color: #AAA ;
+}
+
+header nav{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+
+header .search{
+    display: flex;
+    width: 25%;
+    align-items: center;
+       justify-content: space-between;
+
+}
+
+
+header .botao-search{
+    
+   margin:5px ;
+  
+    background-color: rgba(0, 0, 0, .50);
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
+}
+
+
+
+.filme-principal{
+    font-size: 1em;
+    background:  url('/img/miniaturas/6.jpg') no-repeat;     
+    height:80vh;
+    background-size:cover;
+    background-size:100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+h3.titulo{
+    color: black;
+    opacity: 0.8;
+}
+
+.titulo{
+    font-size: 40px;
+    
+    margin-bottom: 20px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    
+    font-family: 'Trebuchet MS',  Arial, sans-serif;
+}
+
+.descricao{
+    width: 50%;
+     font-size: 1em;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+   padding-bottom: 10px;
+   font-weight: bold;
+       color: white; 
+}
+
+p.descricao{
+    color: rgb(7, 4, 4);
+    opacity: 0.9;
+}
+
+
+.botao, .botao-search{
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, .50);
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
+    font-size: 1em;
+
+    padding: 15px 30px;
+    margin-right: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.botao i{
+    margin-right: 5px;
+     
+}
+
+.p{
+    padding-top: 20px;
+}
+
+.box-filme{
+    height: 150%;
+    width: 150%;
+    display: block;
+    
+    border: 1px solid red;
+    
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.item1{
+    background-image: url(/img/miniaturas/2.jpg) ;background-size: cover; height: 24vh;
+  }
+
+.item2{
+    background-image: url(/img/miniaturas/3.jpg) ;background-size: cover; height: 24vh;
+  }
+
+  .item3{
+    background-image: url(/img/miniaturas/4.jpg) ;background-size: cover; height: 24vh;
+  }
+  .item4{
+    background-image: url(/img/miniaturas/5.jpg) ;background-size: cover; height: 24vh;
+  }
+  .item5{
+    background-image: url(/img/miniaturas/6.jpg) ;background-size: cover; height: 24vh;
+  }
+  .item6{
+    background-image: url(/img/miniaturas/7.jpg) ;background-size: cover; height: 24vh;
+  }
+  .item7{
+    background-image: url(/img/miniaturas/8.jpg) ;background-size: cover; height: 24vh;
+  }
+  .item8{
+    background-image: url(/img/miniaturas/9.jpg) ;background-size: cover; height: 24vh;
+  }
+
+
+
+.item1 h4, 
+.item2 h4,
+.item3 h4,
+.item4 h4,
+.item5 h4,
+.item6 h4,
+.item7 h4,
+.item8 h4
+{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 1vh;
+  justify-content: end;
+  cursor: pointer;
+  padding-top: 18vh;
+}
+
+ section{
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+
+footer h4{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+}
